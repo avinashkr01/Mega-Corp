@@ -1,0 +1,560 @@
+body {
+    background-color: #101214;
+}
+
+/* header starts */
+
+.custom-main {
+    padding: 0;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 665px;
+}
+
+/* navigation starts */
+
+#nav-bar {
+    background: none;
+    border: none;
+    margin-top: 25px;
+}
+
+#nav-bar .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
+    left: 200px;
+}
+
+#nav-bar .navbar-toggle {
+    background: none;
+    border: none;
+    width: 10%;
+}
+
+#nav-bar .navbar-nav {
+    float: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+#nav-bar .navbar-nav a {
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    right: 130px;
+}
+
+#nav-bar .nav-f {
+    background-color: #2782b2;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+/* navigation ends */
+
+/* banner starts */
+
+.banner {
+    position: relative;
+    top: 150px;
+}
+
+.banner h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.banner p {
+    font-size: 15px;
+    color: rgb(173, 173, 173);
+    padding: 10px 300px;
+    line-height: 30px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+/* banner ends */
+
+/* header ends */
+
+/* big-wrapper starts */
+
+.big-wrapper {
+    background-color: #0c0e0f;
+    padding: 30px 0;
+}
+
+.s-caption {
+    padding: 25px;
+}
+
+.s-caption h3 {
+    font-size: 22px;
+    color: rgb(189, 189, 189);
+}
+
+.s-caption i {
+    font-size: 40px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.s-caption p {
+    color: gray;
+    line-height: 28px;
+}
+
+/* big-wrapper ends */
+
+/* main theory starts */
+
+.custom-mt {
+    padding: 30px 0;
+}
+
+.left-portion {
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+}
+
+.left-portion h3 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.left-portion img {
+    width: 100%;
+}
+
+.left-portion p {
+    color: grey;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.left-down {
+    width: 45%;
+    float: left;
+    margin-top: 30px;
+}
+
+.left-down h4 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.left-down p {
+    color: grey;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.left-down button {
+    background-color: #2179dd;
+    width: 40%;
+    float: left;
+}
+
+.left-down h5 {
+    width: 50%;
+    float: left;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.left-down .bt-txt {
+    clear: both;
+    padding-top: 20px;
+}
+
+.left-down hr, .right-down hr {
+    border: 1px solid rgb(68, 68, 68);
+    margin: 30px 0;
+}
+
+
+.right-down {
+    width: 45%;
+    float: right;
+    margin-top: 30px;
+}
+
+.right-down h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.right-down h5 {
+    color: #fff;
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+.right-down ul {
+    margin: 20px;
+    padding: 0;
+    font-size: 13px;
+    line-height: 28px;
+    color: gray;
+}
+
+.l-points {
+    float: left;
+    width: 48%;
+}
+
+.l-points h3, .r-points h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.l-points ul, .r-points ul {
+    margin: 20px 0;
+    padding: 0 15px;
+    color: grey;
+}
+
+.l-points li, .r-points li {
+    border-bottom: 1px solid rgb(73, 73, 73);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.r-points {
+    float: right;
+    width: 48%;
+}
+
+.img-with-caption {
+    clear: both;
+    width: 100%;
+}
+
+.img-with-caption h3 {
+    color: #fff;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.img-with-caption img {
+    float: left;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.img-with-caption p {
+    float: left;
+    width: 70%;
+    margin-bottom: 40px;
+    color: rgb(192, 192, 192);
+    margin-left: 20px;
+    line-height: 28px;
+}
+
+.img-with-caption hr {
+    clear: both;
+    border: 1px solid rgb(54, 54, 54);
+    ;
+}
+
+/* main theory ends */
+
+/* footer starts */
+
+.footer {
+    color: grey;
+    padding: 50px 0;
+    border-top: 1px solid rgb(61, 61, 61);
+}
+
+/* footer ends */
+
+span {
+    color: rgb(201, 201, 201);
+    text-decoration: underline;
+}
+
+
+/* media query starts */
+
+@media only screen and (max-width:1024px) {
+
+    /* navigation starts */
+
+    #nav-bar .navbar-brand {
+        position: relative;
+        left: 20px;
+    }
+
+    #nav-bar .navbar-nav a {
+        position: relative;
+        right: 10px;
+    }
+
+    /* navigation ends */
+
+    /* main theory starts */
+
+    .left-down h5 {
+        font-size: 13px;
+    }
+
+    .right-down h4 {
+        font-size: 25px;
+    }
+
+    .right-down h5 {
+        font-size: 16px;
+    }
+
+    .l-points ul, .r-points ul {
+        font-size: 13px;
+    }
+
+    .img-with-caption p {
+        width: 60%;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    /* main theory ends */
+
+}
+
+@media only screen and (max-width:768px) {
+
+    /* banner starts */
+
+    .banner p {
+        padding: 10px 40px;
+    }
+
+    /* banner ends */
+
+     /* main theory starts */
+
+    .left-down button {
+        width: 45%;
+    }
+
+    .left-down h5 {
+        width: 40%;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .right-down h4 {
+        font-size: 23px;
+    }
+
+    .right-down h5 {
+        font-size: 15px;
+    }
+
+    .l-points ul, .r-points ul {
+        padding: 0 5px;
+        font-size: 13px;
+    }
+
+    .img-with-caption img {
+        margin: 0 10px;
+    }
+
+    .img-with-caption p {
+        float: none;
+        width: 90%;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+       /* main theory ends */
+
+}
+
+@media only screen and (max-width:425px) {
+
+    /* navigation starts */
+
+    #nav-bar .navbar-nav {
+        float: left !important;
+        padding-left: 10px;
+    }
+
+    /* navigation ends */
+
+    /* banner starts */
+
+    .banner {
+        position: relative;
+        top: 80px;
+    }
+
+    /* banner ends */
+
+    /* main theory starts */
+
+    .left-portion {
+        padding: 20px 10px;
+    }
+
+    .left-down {
+        width: 48%;
+    }
+
+    .left-down p {
+        text-align: justify;
+    }
+
+    .left-down button {
+        width: 50%;
+    }
+
+    .left-down h5 {
+        width: 100%;
+        font-size: 15px;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+
+
+    .right-down {
+        width: 48%;
+    }
+
+    .right-down h4 {
+        font-size: 20px;
+    }
+
+    .right-down h5 {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+    .right-down ul {
+        width: 90%;
+    }
+
+    .l-points {
+        width: 45%;
+        margin-top: 15px;
+    }
+
+    .r-points {
+        width: 45%;
+    }
+
+    /* main theory ends */
+
+
+}
+
+@media only screen and (max-width:375px) {
+
+    /* banner starts */
+
+    .banner {
+        position: relative;
+        top: 60px;
+    }
+
+    /* banner ends */
+
+    /* main theory starts */
+
+    .left-down button {
+        width: 60%;
+    }
+
+    .l-points {
+        margin-top: 60px;
+    }
+
+    /* main theory ends */
+
+}
+
+@media only screen and (max-width:320px) {
+
+    /* banner starts */
+
+    .banner {
+        position: relative;
+        top: 50px;
+    }
+
+    .banner h3 {
+        font-size: 25px;
+    }
+
+    .banner p {
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+
+    /* banner ends */
+
+    /* main theory starts */
+
+    .left-portion h3 {
+        font-size: 35px;
+    }
+
+    .left-down {
+        width: 100%;
+    }
+
+    .left-down button {
+        width: 35%;
+    }
+
+    .left-down h5 {
+        width: 60%;
+        margin-left: 10px;
+        padding-top: 15px;
+    }
+
+    .right-down {
+        width: 100%;
+    }
+
+    .right-down h4 {
+        font-size: 30px;
+    }
+
+    .right-down h5 {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    .right-down ul {
+        width: 95%;
+    }
+
+    .l-points {
+        margin-top: 0px;
+    }
+
+    /* main theory ends */
+
+}
+
+
+/* media query ends */
